@@ -1,0 +1,38 @@
+	body {
+		padding: 0px;
+	}
+	.button {
+		position: absolute;
+		left: 10px;
+		top:  10px;
+		border-radius: 6px;
+  		background-image: linear-gradient(to right, #B7461A , #D7683D);
+		padding:  22px 32px;
+		margin: 25px;
+		color: white;
+		text-decoration: none;
+		font-family: Verdana, sans-serif;
+		font-size: 30px;
+		font-weight: bold;
+		text-shadow: 0px 2px 2px #8E3515;
+		text-transform: uppercase;
+		word-spacing: 22px;
+	}
+	.button:after {
+	  content: '';
+	  position: absolute;
+	  top: -6px;
+	  left: -6px;
+	  right: -6px;
+	  bottom: -6px;
+	  border: 3px solid #D73D06;
+	  border-radius: 10px;
+	  z-index: -1;
+	}
+	.dot {
+	  height: 22px;
+	  width: 22px;
+	  background-color: #FFFFFF;
+	  border-radius: 50%;
+	  display: inline-block;
+	}
